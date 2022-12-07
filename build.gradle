@@ -22,10 +22,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation platform('com.amazonaws:aws-java-sdk-bom:1.12.358')
     implementation 'javax.xml.bind:jaxb-api'
-    //1.11.1000
     implementation 'com.amazonaws:aws-java-sdk-s3'
-    //implementation 'io.awspring.cloud:spring-cloud-aws'
-    //implementation 'io.awspring.cloud:spring-cloud-aws-s3'
     compileOnly 'org.projectlombok:lombok'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     annotationProcessor 'org.projectlombok:lombok'
